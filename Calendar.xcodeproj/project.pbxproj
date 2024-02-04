@@ -16,6 +16,8 @@
 		5F87488B2B588F3F003E4E3A /* CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87488A2B588F3F003E4E3A /* CalendarTests.swift */; };
 		5F8748952B588F3F003E4E3A /* CalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8748942B588F3F003E4E3A /* CalendarUITests.swift */; };
 		5F8748972B588F3F003E4E3A /* CalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8748962B588F3F003E4E3A /* CalendarUITestsLaunchTests.swift */; };
+		5FE3FC3F2B6F02AC00E36F75 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3FC3E2B6F02AC00E36F75 /* CalendarHelper.swift */; };
+		5FEB08912B6EEFE900B469EC /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB08902B6EEFE900B469EC /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F8748902B588F3F003E4E3A /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8748942B588F3F003E4E3A /* CalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUITests.swift; sourceTree = "<group>"; };
 		5F8748962B588F3F003E4E3A /* CalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FE3FC3E2B6F02AC00E36F75 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		5FEB08902B6EEFE900B469EC /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				5F8748732B588F2B003E4E3A /* AppDelegate.swift */,
 				5F8748752B588F2B003E4E3A /* SceneDelegate.swift */,
 				5F8748772B588F2B003E4E3A /* ViewController.swift */,
+				5FE3FC3E2B6F02AC00E36F75 /* CalendarHelper.swift */,
 				5F8748792B588F2B003E4E3A /* Main.storyboard */,
+				5FEB08902B6EEFE900B469EC /* CalendarCell.swift */,
 				5F87487C2B588F3F003E4E3A /* Assets.xcassets */,
 				5F87487E2B588F3F003E4E3A /* LaunchScreen.storyboard */,
 				5F8748812B588F3F003E4E3A /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE3FC3F2B6F02AC00E36F75 /* CalendarHelper.swift in Sources */,
 				5F8748782B588F2B003E4E3A /* ViewController.swift in Sources */,
 				5F8748742B588F2B003E4E3A /* AppDelegate.swift in Sources */,
 				5F8748762B588F2B003E4E3A /* SceneDelegate.swift in Sources */,
+				5FEB08912B6EEFE900B469EC /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
