@@ -4,9 +4,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 {
     @IBOutlet weak var monthLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
+
     
-    var selectedDate = Date()
     var totalSquares = [String]()
+    
     
     override func viewDidLoad()
     {
@@ -51,9 +52,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             + " " + CalendarHelper().yearString(date: selectedDate)
         collectionView.reloadData()
     }
-    
-    
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         totalSquares.count
     }
@@ -65,8 +64,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         return cell
     }
-
-
     
     @IBAction func previousMonth(_ sender: Any)
     {
@@ -85,4 +82,3 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return false
     }
 }
-
