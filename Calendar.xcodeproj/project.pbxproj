@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F5073EB2BC65F23001DB17C /* DailyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5073EA2BC65F23001DB17C /* DailyCell.swift */; };
+		5F5073ED2BC65F32001DB17C /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5073EC2BC65F32001DB17C /* DailyViewController.swift */; };
+		5F5073EF2BC66DE4001DB17C /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5073EE2BC66DE4001DB17C /* CalendarDay.swift */; };
 		5F8748742B588F2B003E4E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8748732B588F2B003E4E3A /* AppDelegate.swift */; };
 		5F8748762B588F2B003E4E3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8748752B588F2B003E4E3A /* SceneDelegate.swift */; };
 		5F8748782B588F2B003E4E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8748772B588F2B003E4E3A /* ViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F5073EA2BC65F23001DB17C /* DailyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCell.swift; sourceTree = "<group>"; };
+		5F5073EC2BC65F32001DB17C /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		5F5073EE2BC66DE4001DB17C /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		5F8748702B588F2B003E4E3A /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8748732B588F2B003E4E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F8748752B588F2B003E4E3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,8 +120,11 @@
 				5F8748732B588F2B003E4E3A /* AppDelegate.swift */,
 				5F8748752B588F2B003E4E3A /* SceneDelegate.swift */,
 				5F8748772B588F2B003E4E3A /* ViewController.swift */,
+				5F5073EE2BC66DE4001DB17C /* CalendarDay.swift */,
 				5FE3FC3E2B6F02AC00E36F75 /* CalendarHelper.swift */,
 				5F8748792B588F2B003E4E3A /* Main.storyboard */,
+				5F5073EA2BC65F23001DB17C /* DailyCell.swift */,
+				5F5073EC2BC65F32001DB17C /* DailyViewController.swift */,
 				5FC895AF2BBFA837008B98D2 /* Event.swift */,
 				5FC895AB2BBFA5F6008B98D2 /* EventEditViewController.swift */,
 				5FC895AD2BBFA60F008B98D2 /* EventCell.swift */,
@@ -277,11 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE3FC3F2B6F02AC00E36F75 /* CalendarHelper.swift in Sources */,
+				5F5073EB2BC65F23001DB17C /* DailyCell.swift in Sources */,
+				5F5073ED2BC65F32001DB17C /* DailyViewController.swift in Sources */,
 				5FC895B02BBFA837008B98D2 /* Event.swift in Sources */,
 				5FC895AC2BBFA5F7008B98D2 /* EventEditViewController.swift in Sources */,
 				5F8748782B588F2B003E4E3A /* ViewController.swift in Sources */,
 				5F8748742B588F2B003E4E3A /* AppDelegate.swift in Sources */,
 				5FC895AE2BBFA60F008B98D2 /* EventCell.swift in Sources */,
+				5F5073EF2BC66DE4001DB17C /* CalendarDay.swift in Sources */,
 				5FC895AA2B93F6D0008B98D2 /* WeeklyViewController.swift in Sources */,
 				5F8748762B588F2B003E4E3A /* SceneDelegate.swift in Sources */,
 				5FEB08912B6EEFE900B469EC /* CalendarCell.swift in Sources */,
@@ -463,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5XU5MWVSL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -490,6 +503,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5XU5MWVSL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

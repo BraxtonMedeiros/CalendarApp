@@ -17,6 +17,8 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        collectionView.delegate = self
+        collectionView.dataSource = self
         setCellsView()
         setWeekView()
     }
@@ -72,14 +74,15 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         return cell
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
     {
+        print("Braxton O")
         selectedDate = totalSquares[indexPath.item]
         collectionView.reloadData()
         tableView.reloadData()
     }
-    
+
+        
     @IBAction func previousWeek(_ sender: Any)
     {
         selectedDate = CalendarHelper().addDays(date: selectedDate, days: -7)
@@ -115,6 +118,6 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     override func viewDidAppear(_ animated: Bool)
     {
         super.viewDidAppear(animated)
-        tableView.reloadData()
+        setWeekView()
     }
 }
